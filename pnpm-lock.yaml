@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@next-auth/prisma-adapter':
-    specifier: 1.0.6
-    version: 1.0.6(@prisma/client@4.15.0)(next-auth@4.22.1)
+    specifier: 1.0.7
+    version: 1.0.7(@prisma/client@4.15.0)(next-auth@4.22.1)
   '@prisma/client':
     specifier: 4.15.0
     version: 4.15.0(prisma@4.15.0)
@@ -15,17 +15,17 @@ dependencies:
     specifier: 4.29.12
     version: 4.29.12(react-dom@18.2.0)(react@18.2.0)
   '@trpc/client':
-    specifier: 10.28.1
-    version: 10.28.1(@trpc/server@10.28.1)
+    specifier: 10.28.2
+    version: 10.28.2(@trpc/server@10.28.2)
   '@trpc/next':
-    specifier: 10.28.1
-    version: 10.28.1(@tanstack/react-query@4.29.12)(@trpc/client@10.28.1)(@trpc/react-query@10.28.1)(@trpc/server@10.28.1)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 10.28.2
+    version: 10.28.2(@tanstack/react-query@4.29.12)(@trpc/client@10.28.2)(@trpc/react-query@10.28.2)(@trpc/server@10.28.2)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0)
   '@trpc/react-query':
-    specifier: 10.28.1
-    version: 10.28.1(@tanstack/react-query@4.29.12)(@trpc/client@10.28.1)(@trpc/server@10.28.1)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 10.28.2
+    version: 10.28.2(@tanstack/react-query@4.29.12)(@trpc/client@10.28.2)(@trpc/server@10.28.2)(react-dom@18.2.0)(react@18.2.0)
   '@trpc/server':
-    specifier: 10.28.1
-    version: 10.28.1
+    specifier: 10.28.2
+    version: 10.28.2
   next:
     specifier: 13.4.4
     version: 13.4.4(react-dom@18.2.0)(react@18.2.0)
@@ -53,8 +53,8 @@ devDependencies:
     specifier: 20.2.5
     version: 20.2.5
   '@types/prettier':
-    specifier: 2.7.2
-    version: 2.7.2
+    specifier: 2.7.3
+    version: 2.7.3
   '@types/react':
     specifier: 18.2.7
     version: 18.2.7
@@ -202,8 +202,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@next-auth/prisma-adapter@1.0.6(@prisma/client@4.15.0)(next-auth@4.22.1):
-    resolution: {integrity: sha512-Z7agwfSZEeEcqKqrnisBun7VndRPshd6vyDsoRU68MXbkui8storkHgvN2hnNDrqr/hSCF9aRn56a1qpihaB4A==}
+  /@next-auth/prisma-adapter@1.0.7(@prisma/client@4.15.0)(next-auth@4.22.1):
+    resolution: {integrity: sha512-Cdko4KfcmKjsyHFrWwZ//lfLUbcLqlyFqjd/nYE2m3aZ7tjMNUjpks47iw7NTCnXf+5UWz5Ypyt1dSs1EP5QJw==}
     peerDependencies:
       '@prisma/client': '>=2.26.0 || >=3'
       next-auth: ^4
@@ -442,53 +442,53 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/client@10.28.1(@trpc/server@10.28.1):
-    resolution: {integrity: sha512-0+717Uy75+dypm7FB02sKiYtCz78HHApIBLSF16x5EwLBE6wsaQK+6yarkXFb1009DfmikeA8mSoUM0BrQusGA==}
+  /@trpc/client@10.28.2(@trpc/server@10.28.2):
+    resolution: {integrity: sha512-J8fyV5GuIekcjR70At/93jwjVpzPPI7ij7xeBnoKyv73I8lTcYsaxh1V60pH5dx0yYn6oHEEntJHs6BvQbneOw==}
     peerDependencies:
-      '@trpc/server': 10.28.1
+      '@trpc/server': 10.28.2
     dependencies:
-      '@trpc/server': 10.28.1
+      '@trpc/server': 10.28.2
     dev: false
 
-  /@trpc/next@10.28.1(@tanstack/react-query@4.29.12)(@trpc/client@10.28.1)(@trpc/react-query@10.28.1)(@trpc/server@10.28.1)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-PyrEzbp6IAOmNgFRdUtodXct/sB6bcYN8nT65qlckcC0uAPgTBWA4CI3rt9ie4OO4SZsw0AUh4HSk/ig9L5ZMg==}
+  /@trpc/next@10.28.2(@tanstack/react-query@4.29.12)(@trpc/client@10.28.2)(@trpc/react-query@10.28.2)(@trpc/server@10.28.2)(next@13.4.4)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ElQM9LW4zFsmhUJYIOBJiWGBv7ZQzFK3stMudy1+LH8Dxlz4l0YZ8QQoW/YAjIzuGA/3SDkHsYDo7uqYK13Vpg==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.28.1
-      '@trpc/react-query': 10.28.1
-      '@trpc/server': 10.28.1
+      '@trpc/client': 10.28.2
+      '@trpc/react-query': 10.28.2
+      '@trpc/server': 10.28.2
       next: '*'
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.29.12(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.28.1(@trpc/server@10.28.1)
-      '@trpc/react-query': 10.28.1(@tanstack/react-query@4.29.12)(@trpc/client@10.28.1)(@trpc/server@10.28.1)(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/server': 10.28.1
+      '@trpc/client': 10.28.2(@trpc/server@10.28.2)
+      '@trpc/react-query': 10.28.2(@tanstack/react-query@4.29.12)(@trpc/client@10.28.2)(@trpc/server@10.28.2)(react-dom@18.2.0)(react@18.2.0)
+      '@trpc/server': 10.28.2
       next: 13.4.4(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-ssr-prepass: 1.5.0(react@18.2.0)
     dev: false
 
-  /@trpc/react-query@10.28.1(@tanstack/react-query@4.29.12)(@trpc/client@10.28.1)(@trpc/server@10.28.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-zBqOL0lQD6jRvIq696YZPEoiwP01crRLgxHAXKzSUPx7fmBovgE+vqx6VaUhQtk5QTVvV2WmS/mtJE86ZsQlWQ==}
+  /@trpc/react-query@10.28.2(@tanstack/react-query@4.29.12)(@trpc/client@10.28.2)(@trpc/server@10.28.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-hDIk1MKkH5Kz1WXqbPGYJCB5jnjnIQgl0Zg4bScq6/PETBK38fZRn9MHmyjf8HLbvkXbdzWSfnhBGf/nkCCGrQ==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.28.1
-      '@trpc/server': 10.28.1
+      '@trpc/client': 10.28.2
+      '@trpc/server': 10.28.2
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.29.12(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.28.1(@trpc/server@10.28.1)
-      '@trpc/server': 10.28.1
+      '@trpc/client': 10.28.2(@trpc/server@10.28.2)
+      '@trpc/server': 10.28.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/server@10.28.1:
-    resolution: {integrity: sha512-imKwru3wGNuZ58Z2BnXwJv7zWAjqMJ7m8uMfah0zL4wUoB3oq2ozp6dfseDEb7SCDqvJqI4BS07HJstJ+idD4Q==}
+  /@trpc/server@10.28.2:
+    resolution: {integrity: sha512-mCdMzef1NnchYyV11Dg02vu8HDyXl0elvrs2Noi261eLRIU5TwQjiSRxbw/YrDupOKKjaG4iz2i8mHR7jhlvWQ==}
     dev: false
 
   /@types/eslint@8.40.0:
@@ -514,8 +514,8 @@ packages:
     resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
     dev: true
 
-  /@types/prettier@2.7.2:
-    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
+  /@types/prettier@2.7.3:
+    resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
     dev: true
 
   /@types/prop-types@15.7.5:
