@@ -47,8 +47,8 @@ dependencies:
 
 devDependencies:
   '@types/eslint':
-    specifier: 8.40.0
-    version: 8.40.0
+    specifier: 8.40.1
+    version: 8.40.1
   '@types/node':
     specifier: 20.2.5
     version: 20.2.5
@@ -491,8 +491,8 @@ packages:
     resolution: {integrity: sha512-kNXgMh5ya+awuz2tB4eIyVrRs7nVtqGXwSGabzH3l5ZLWz7rbKJquOJ7h6bjvIfWUpaFG62HJNWxxGUtXCRgRw==}
     dev: false
 
-  /@types/eslint@8.40.0:
-    resolution: {integrity: sha512-nbq2mvc/tBrK9zQQuItvjJl++GTN5j06DaPtp3hZCpngmG6Q3xoyEmd0TwZI0gAy/G1X0zhGBbr2imsGFdFV0g==}
+  /@types/eslint@8.40.1:
+    resolution: {integrity: sha512-vRb792M4mF1FBT+eoLecmkpLXwxsBHvWWRGJjzbYANBM6DtiJc6yETyv4rqDA6QNjF1pkj1U7LMA6dGb3VYlHw==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
