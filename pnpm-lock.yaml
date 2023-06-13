@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@next-auth/prisma-adapter':
     specifier: 1.0.7
@@ -43,8 +47,8 @@ dependencies:
 
 devDependencies:
   '@types/eslint':
-    specifier: 8.40.1
-    version: 8.40.1
+    specifier: 8.40.2
+    version: 8.40.2
   '@types/node':
     specifier: 20.3.0
     version: 20.3.0
@@ -487,8 +491,8 @@ packages:
     resolution: {integrity: sha512-pRsrHCuar3fbyOdJvO4b80OMP1Tx/wOSy5Ozy6cFDFWVUmfAyIX3En5Hoysy4cmMUuCsQsfTEYQwo+OcpjzBkg==}
     dev: false
 
-  /@types/eslint@8.40.1:
-    resolution: {integrity: sha512-vRb792M4mF1FBT+eoLecmkpLXwxsBHvWWRGJjzbYANBM6DtiJc6yETyv4rqDA6QNjF1pkj1U7LMA6dGb3VYlHw==}
+  /@types/eslint@8.40.2:
+    resolution: {integrity: sha512-PRVjQ4Eh9z9pmmtaq8nTjZjQwKFk7YIHIud3lRoKRBgUQjgjRmoGxxGEPXQkF+lH7QkHJRNr5F4aBgYCW0lqpQ==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
@@ -3068,7 +3072,3 @@ packages:
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
