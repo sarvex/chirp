@@ -47,8 +47,8 @@ dependencies:
 
 devDependencies:
   '@types/eslint':
-    specifier: 8.44.0
-    version: 8.44.0
+    specifier: 8.44.1
+    version: 8.44.1
   '@types/node':
     specifier: 20.4.4
     version: 20.4.4
@@ -501,19 +501,15 @@ packages:
     resolution: {integrity: sha512-UntbE9gG+kB2nEwuJ0hw7AmQuRWw67voKaVBPBA7Ow6+aGZc00gva7015Ey5BT7Qf1wq7xJMLUdgw4QiVU+VpQ==}
     dev: false
 
-  /@types/eslint@8.44.0:
-    resolution: {integrity: sha512-gsF+c/0XOguWgaOgvFs+xnnRqt9GwgTvIks36WpE6ueeI4KCEHHd8K/CKHqhOqrJKsYH8m27kRzQEvWXAwXUTw==}
+  /@types/eslint@8.44.1:
+    resolution: {integrity: sha512-XpNDc4Z5Tb4x+SW1MriMVeIsMoONHCkWFMkR/aPJbzEsxqHy+4Glu/BqTdPrApfDeMaXbtNh6bseNgl5KaWrSg==}
     dependencies:
       '@types/estree': 1.0.0
-      '@types/json-schema': 7.0.11
+      '@types/json-schema': 7.0.12
     dev: true
 
   /@types/estree@1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
-    dev: true
-
-  /@types/json-schema@7.0.11:
-    resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
   /@types/json-schema@7.0.12:
