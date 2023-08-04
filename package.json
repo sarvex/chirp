@@ -25,7 +25,7 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@types/eslint": "8.44.1",
+    "@types/eslint": "8.44.2",
     "@types/node": "20.4.7",
     "@types/prettier": "3.0.0",
     "@types/react": "18.2.18",
