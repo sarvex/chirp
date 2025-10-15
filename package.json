@@ -37,7 +37,7 @@
     "eslint-config-next": "15.5.5",
     "postcss": "8.5.6",
     "prettier": "3.6.2",
-    "prettier-plugin-tailwindcss": "0.6.14",
+    "prettier-plugin-tailwindcss": "0.7.0",
     "prisma": "6.17.1",
     "@biomejs/biome": "2.2.6",
     "tailwindcss": "4.1.14",
