@@ -39,7 +39,7 @@
     "prettier": "3.8.1",
     "prettier-plugin-tailwindcss": "0.7.2",
     "prisma": "7.4.1",
-    "@biomejs/biome": "2.4.3",
+    "@biomejs/biome": "2.4.4",
     "tailwindcss": "4.2.0",
     "typescript": "5.9.3"
   },
