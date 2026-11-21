@@ -21,7 +21,7 @@
     "next-auth": "4.24.14",
     "react": "19.2.5",
     "react-dom": "19.2.5",
-    "superjson": "2.2.6",
+    "superjson": "2.2.7",
     "zod": "4.3.6"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "eslint-config-next": "16.2.4",
     "postcss": "8.5.12",
     "prettier": "3.8.3",
-    "prettier-plugin-tailwindcss": "0.8.0",
+    "prettier-plugin-tailwindcss": "0.8.1",
     "prisma": "7.8.0",
     "@biomejs/biome": "2.4.13",
     "tailwindcss": "4.2.4",
